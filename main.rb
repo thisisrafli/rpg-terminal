@@ -89,7 +89,6 @@ while player.alive? && monster.alive?
     next
   end
 
-  # Monster turn
   if monster.alive?
     damage = player.take_damage(monster.attack)
     puts "💀 #{monster.name} menyerang balik dan memberi #{damage} damage!"
