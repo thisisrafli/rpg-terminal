@@ -1,6 +1,6 @@
-# =========================
-# RPG TERMINAL GAME - RUBY
-# =========================
+# ==================
+# RPG TERMINAL GAME
+# ==================
 
 class Character
   attr_accessor :name, :hp, :attack, :defense
